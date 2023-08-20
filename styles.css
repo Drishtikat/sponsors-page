@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #15202b; /* Dark bluish-green background */
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.neon-text {
+    font-size: 48px;
+    color: #00e6e6; /* Pixelated neon bluish font */
+    text-shadow: 0 0 10px #00e6e6, 0 0 20px #00e6e6, 0 0 30px #00e6e6;
+}
+
+.sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+.sponsor-box {
+    margin: 10px;
+    padding: 20px;
+    background-color: #243447;
+    border-radius: 10px;
+    text-align: center;
+    display: -ms-inline-grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-logo {
+    align-items: center;
+    display: flex;
+    max-width: 100px;
+    height: auto;
+}
+  
