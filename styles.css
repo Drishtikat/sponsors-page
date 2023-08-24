@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #15202b; /* Dark bluish-green background */
+    background-color: #15202b;
+    /* Dark bluish-green background */
     font-family: Arial, sans-serif;
 }
 
@@ -12,7 +13,8 @@ body {
 
 .neon-text {
     font-size: 48px;
-    color: #00e6e6; /* Pixelated neon bluish font */
+    color: #00e6e6;
+    /* Pixelated neon bluish font */
     text-shadow: 0 0 10px #00e6e6, 0 0 20px #00e6e6, 0 0 30px #00e6e6;
 }
 
@@ -22,24 +24,36 @@ body {
     justify-content: center;
     margin: 50px auto;
     max-width: 1000px;
-}
-
-.sponsor-box {
-    margin: 10px;
-    padding: 20px;
-    background-color: #243447;
-    border-radius: 10px;
-    text-align: center;
-    display: -ms-inline-grid;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 30vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    /* flex-wrap: wrap; */
 }
 
 .sponsor-logo {
-    align-items: center;
-    display: flex;
-    max-width: 100px;
-    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    margin-bottom: 15px;
 }
-  
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+    max-width: 300px;
+    margin-right: 3rem;
+}
+
+.image2 {
+    position: absolute;
+    padding-top: 3rem;
+    top: 50%;
+    left: 40%;
+    max-width: 220px;
+    transform: translate(-50%, -50%);
+    
+}
