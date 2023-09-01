@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-color: #15202b;
     /* Dark bluish-green background */
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe Script', bold;
 }
 
 .header {
@@ -15,7 +15,7 @@ body {
     font-size: 48px;
     color: #00e6e6;
     /* Pixelated neon bluish font */
-    text-shadow: 0 0 10px #00e6e6, 0 0 20px #00e6e6, 0 0 30px #00e6e6;
+    text-shadow: 0 0 10px #09acac, 0 0 20px #09acac, 0 0 30px #09acac;
 }
 
 .sponsors {
@@ -48,13 +48,19 @@ body {
     margin-right: 3rem;
 }
 
+.image1:hover {
+    transform: scale(1.1); 
+    cursor: pointer; 
+}
+
 .image2 {
     position: absolute;
     padding-top: 3rem;
     top: 50%;
     left: 40%;
     max-width: 220px;
-    transform: translate(-50%, -50%);    
+    transform: translate(-50%, -50%);
+    
 }
 
 .dot-pattern {
